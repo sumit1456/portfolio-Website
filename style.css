@@ -685,6 +685,10 @@ nav ul a{
   
 }
 
+.contact-box{
+    
+}
+
 .contact-box button:hover{
     opacity: 0.7;
      box-shadow: 0 0 15px #727fde86;
@@ -788,21 +792,20 @@ footer h1{
 
 
     .hero-info{
-        top: 30%;
+       
     }
     .hero-info p{
         font-size: 24px;
     }
 
     .hero-vid-box{
-        top: -5%;
-       
-    
-       
+      top: -10%;
+      
     }
 
     .hero-vid-box video{
         height: 500px;
+        animation: none;
     }
 
 
@@ -902,6 +905,245 @@ footer h1{
     }
 
     
+    
+
+
+
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 700px) {
+    
+    
+    .blackhole-box{
+        margin-top: 50px;
+    }
+
+    .hero-info{
+        top: 20%;
+       
+    }
+
+    .hero-info h1{
+        font-size: 30px;
+        line-height: 100%;
+    }
+    .hero-info p{
+        font-size: 15px;
+        max-width: 80%;
+    }
+
+    .hero-vid-box{
+       top: -15%;
+    }
+
+    .hero-vid-box video{
+        height: 300px;
+        left: 50%;
+        
+    }
+
+    .scroll-down{
+      top: 68%;
+      left: 55%;
+        
+    }
+
+
+
+    .info-cards{
+        height: 900px;
+        width: 110%;
+        
+    }
+
+    .card img{
+        height: 200px;
+    }
+
+    .contents{
+        bottom: 10%;
+    }
+
+    .contents h1{
+        font-size: 22px;
+    }
+
+    .contents p{
+        font-size: 17px;
+        max-width: 100%;
+       
+    }
+
+    .card:nth-child(1) .contents, .card:nth-child(2) .contents{
+        top: 25%;
+    }
+
+    .card:nth-child(1) img ,
+    .card:nth-child(2) img{
+        position: absolute;
+        top: -9%;
+    }
+
+    .card:nth-child(3) .contents p{
+        
+    }
+
+    .my-projects{
+       margin-top: 0px;
+       height: 150vh;
+    }
+
+
+    .project-card{
+        flex-wrap: wrap;
+        height: 100%;
+        
+    }
+
+    .project-video{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .project-video video{
+        width: 80%;
+    }
+
+    .project-info{
+       
+       position: relative;
+       left : -20px;
+        
+    }
+
+    .project-info h1{
+        font-size: 1.5rem;
+        max-width: 300px;
+    }
+
+    .project-info p{
+        font-size: 15px;
+       min-width: 100%;
+    }
+
+    .skills-section{
+        margin-top: 300px;
+    }
+
+    .skills-box{
+        height: 100vh;
+      
+    }
+
+    .coder{
+      top: 20%;
+    }
+
+    .designer{
+        top: 45%;
+        left: 10%;
+    }
+
+    .coder p , .designer p{
+        font-size: 15px;
+
+    }
+
+    .coder h1, .designer h1{
+        font-size: 30px;
+    }
+
+
+    
+
+    .slider{
+       
+    }
+
+    .slider img{
+        height: 30px;
+        width: 20px;
+    }
+
+
+    .contact-section{
+        flex-wrap: wrap;
+       
+       
+    }
+
+
+    
+.contact-section h1{
+    position: relative;
+    top: 0;
+    left: -10%;
+   
+}
+
+.social-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    width: 100%;
+   
+    
+   
+}
+
+.social-box i{
+    color: #72a1de8d;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-box a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 17px;
+    text-wrap: nowrap;
+}
+
+.social-icons i{
+    color: white;
+    margin-top: 40px;
+}
+
+.contact-box{
+ 
+}
+
+.contact-box p{
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+
+.contact-box input{
+   height: 8px;
+}
+
+.contact-box button{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  
+}
+
+footer{
+   
+    
+}  
     
 
 
