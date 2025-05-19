@@ -136,7 +136,7 @@ nav ul a{
 
 
 .hero{
-    width: 100%;
+    width: 90%;
     height: 100vh;
     position: relative;
     align-items: center;
@@ -146,7 +146,7 @@ nav ul a{
 
 .hero-info{
     position: absolute;
-    left: 5%;
+    right: 3%;
     width: 100%;
 }
 
@@ -325,6 +325,7 @@ nav ul a{
 .card img{
     height: 80%;
     width: 80%;
+    position: absolute;
 }
 
 .card video{
@@ -334,7 +335,8 @@ nav ul a{
 }
 
 .contents{
-   position: absolute;
+   position: relative;
+   top: 50%;
    bottom: 0px;
    right: 3%;
    padding: 10px 15px;
@@ -919,9 +921,20 @@ footer h1{
 
 
 @media screen and (max-width : 750px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    *{
+        border: red;
+    }
     
     nav{
-        max-width: 100%;
+       width: 100%;
     }
 
     .left img{
@@ -974,12 +987,23 @@ footer h1{
     }
 
 
+    
+    .info-section{
+        height: 170vh;
 
-   
+    }
+
+    .info-cards{
+        display: flex;
+        
+        flex-direction: column;
+        gap: 5%;
+
+    }
 
     .card{
         min-width: 80%;
-        min-height: 35%;
+        
     }
 
     .card img{
@@ -987,27 +1011,29 @@ footer h1{
     }
 
     .contents{
-        bottom: 10%;
+        top: 2%;
     }
 
     .contents h1{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .contents p{
-        font-size: 17px;
+        font-size: 14px;
         max-width: 100%;
        
     }
 
     .card:nth-child(1) .contents, .card:nth-child(2) .contents{
-        top: 25%;
+        top: 10%;
     }
 
     .card:nth-child(1) img ,
     .card:nth-child(2) img{
         position: absolute;
-        top: -9%;
+        top: -20%;
+        left: 30%;
+        mix-blend-mode :lighten;
     }
 
     .card:nth-child(3) .contents p{
