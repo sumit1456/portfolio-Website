@@ -920,8 +920,23 @@ footer h1{
 
 @media screen and (max-width : 750px) {
     
-    *{
-        border: 1px solid red;
+    nav{
+        max-width: 100%;
+    }
+
+    .left img{
+        height: 30px;
+        width: 20px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+   
+    
+    .left h1{
+        font-size: 13px;
     }
     
     .blackhole-box{
@@ -960,10 +975,11 @@ footer h1{
 
 
 
-    .info-cards{
-        height: 900px;
-        width: 110%;
-        
+   
+
+    .card{
+        min-width: 80%;
+        min-height: 35%;
     }
 
     .card img{
@@ -1048,6 +1064,7 @@ footer h1{
 
     .coder{
       top: 20%;
+      left: 10%;
     }
 
     .designer{
