@@ -920,6 +920,9 @@ footer h1{
 
 @media screen and (max-width : 750px) {
     
+    *{
+        border: 1px solid red;
+    }
     
     .blackhole-box{
         margin-top: 50px;
